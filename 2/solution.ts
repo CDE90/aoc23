@@ -27,7 +27,6 @@ export function part1(input: string) {
                 if (redValue > maxR && !isInvalid) {
                     invalidSum += i + 1;
                     isInvalid = true;
-                    console.log("invalid", i + 1, redValue, maxR);
                 }
             }
             if (greenIndex !== -1) {
